@@ -5,7 +5,7 @@ template project for cljs and figwheel-main using clj-cli and also support for l
 # connecting with CIDER
 
 my preferred approach is to start figwheel in separate terminal via
->cljs -A:fig:bs
+>clj -A:fig:bs
 
 and then in emacs do ```cider-connect```. This gives you clj repl. Next you do ```(figwheel.main.api/cljs-repl "dev")``` to start the cljs repl.
 
