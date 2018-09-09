@@ -1,0 +1,17 @@
+{:paths ["src/cljs" "target"]
+ 
+ :deps {org.clojure/clojure       {:mvn/version "1.9.0"}
+        org.clojure/clojurescript {:mvn/version "1.10.339"}}
+ 
+ :aliases {:fig {:extra-deps {cider/cider-nrepl {:mvn/version "0.18.0"}
+                              cider/piggieback  {:mvn/version "0.3.9"}
+
+                              com.bhauman/figwheel-main       {:mvn/version "0.1.9"}
+                              com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}}
+                  }
+           
+           :bs {:extra-paths ["."]
+                :main-opts   ["-m bootstrap"]}}}
+
+
+
